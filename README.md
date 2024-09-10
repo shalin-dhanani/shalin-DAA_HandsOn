@@ -8,11 +8,13 @@ This is  HandOn Assignment
 
 
 
+# HandsOn-2
 
 
 <details>
 
-<summary>HandsOn-2/Correctness of Selection Sort<summary>
+
+<summary>HandsOn-2/Correctness of Selection Sort</summary>
 
 # Correctness of Selection sort
 
@@ -48,6 +50,8 @@ in this way until the entire array is sorted.
 Since the loop invariant is maintained before, during, and after the loop, and it repeats until the whole array is sorted, Selection Sort is correct.
 
 </details>
+<br>
+
 
 # HandsOn-3
 
