@@ -10,6 +10,9 @@ This is  HandOn Assignment
 
 
 
+<details>
+
+<summary>HandsOn-2/Correctness of Selection Sort<summary>
 
 # Correctness of Selection sort
 
@@ -43,3 +46,14 @@ in this way until the entire array is sorted.
 
 ## Conclusion
 Since the loop invariant is maintained before, during, and after the loop, and it repeats until the whole array is sorted, Selection Sort is correct.
+
+</details>
+
+# HandsOn-3
+
+<details>
+
+<summary>HandsOn-3 Assignment</summary>
+
+[`HandsOn-3.md`](HandsOn_3/HandOn-3.md)
+</details>
