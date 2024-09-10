@@ -4,7 +4,10 @@ import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {5,2,4,7,1,3,2,6};
+        System.out.println("Unsorted Array");
+        System.out.println("[5,2,4,7,1,3,2,6]");
         arr = mergeSort(arr);
+        System.out.println("Sorted Array");
         System.out.println(Arrays.toString(arr));
 
     }
