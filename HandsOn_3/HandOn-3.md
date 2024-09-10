@@ -51,4 +51,4 @@ x = x + 1;<br>
 
 #### 6.Implement merge sort, upload your code to github and show/test it on the array [5,2,4,7,1,3,2,6].<br>
 
-**Ans.**<br>![merge_sort.png](merge_sort.png)
+**Ans.** Code for mergesort is  [`MergeSort.java`](HandsOn_3/MergeSort.java)<br>![merge_sort.png](merge_sort.png)
