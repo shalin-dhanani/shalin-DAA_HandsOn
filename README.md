@@ -70,5 +70,5 @@ Since the loop invariant is maintained before, during, and after the loop, and i
 
 <summary>HandsOn-4 Assignment</summary>
 
-[`HandsOn-4.md`](HandsOn_4/HandOn-4.md)
+[`HandsOn_4.md`](HandsOn_4/HandOn_4.md)
 </details>
