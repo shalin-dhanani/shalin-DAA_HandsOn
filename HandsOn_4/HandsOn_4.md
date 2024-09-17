@@ -10,7 +10,7 @@ Ans :-
 
 Code for Fibonacci is  [`Fibonacci.java`](Fibonacci.java)
 
-![alt text](problem_1.jpg)
+![alt text](problem_0.jpg)
 
 <br>
 
