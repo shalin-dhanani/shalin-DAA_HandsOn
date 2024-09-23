@@ -72,3 +72,13 @@ Since the loop invariant is maintained before, during, and after the loop, and i
 
 [`HandsOn_4.md`](HandsOn_4/HandsOn_4.md)
 </details>
+
+
+# HandsOn-5
+
+<details>
+
+<summary>HandsOn-5 Assignment</summary>
+
+[`HandsOn_5.md`](HandsOn_5/HandsOn_5.md)
+</details>
