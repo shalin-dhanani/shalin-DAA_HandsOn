@@ -11,7 +11,7 @@
 * Code for Benchmark is given [`QuicksortNonRandom.py`](QuicksortNonRandom.py)
 <br>
 <br>
-![alt text](benchmark.png)
+![alt text](benchmark.jpg)
 
 # Problem 3
 
