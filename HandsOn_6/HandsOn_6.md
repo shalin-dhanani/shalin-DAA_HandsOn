@@ -12,7 +12,7 @@
 <br>
 <br>
 
-![`alt text`][benchmark.jpg]
+![alt text][benchmark.jpg]
 
 # Problem 3
 
