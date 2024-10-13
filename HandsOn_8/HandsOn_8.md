@@ -20,17 +20,20 @@
 <br>
 
 <b>Output:</b>
+
 ![alt text](stack.png)
 
 *  Code for Queue Implementation is given [`Queue.java`](Queue.java)
 <br>
 
 <b>Output:</b>
+
 ![alt text](Queue.png)
 
 *  Code for SinglyLinkedList Implementation is given [`SinglyLinkedList.java`](SinglyLinkedList.java)
 <br>
 
 <b>Output:</b>
+
 ![alt text](SinglyLinkedList.png)
 
