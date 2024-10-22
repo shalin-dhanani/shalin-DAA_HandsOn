@@ -1,4 +1,4 @@
-// DoublyLinkedList.java
+
 public class DoublyLinkedList {
     class ValueNode {
         int value;
@@ -23,11 +23,11 @@ public class DoublyLinkedList {
 
     Node head, tail;
 
-    // Insert a new key-value pair, or append a value to an existing key
+    
     public void insert(int key, int value) {
         Node node = findNode(key);
         if (node != null) {
-            appendValue(node, value);  // Add new value to the existing key
+            appendValue(node, value);  
         } else {
             Node newNode = new Node(key, value);
             if (tail == null) {
@@ -40,7 +40,7 @@ public class DoublyLinkedList {
         }
     }
 
-    // Append a value to the value list of an existing node
+    
     private void appendValue(Node node, int value) {
         ValueNode currentValueNode = node.valueHead;
         while (currentValueNode.next != null) {
@@ -49,7 +49,7 @@ public class DoublyLinkedList {
         currentValueNode.next = new ValueNode(value);
     }
 
-    // Find the node with a specific key
+   
     private Node findNode(int key) {
         Node current = head;
         while (current != null) {

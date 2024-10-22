@@ -1,4 +1,4 @@
-// HashTable.java
+
 
 public class HashTable {
     private static final double LOAD_FACTOR = 0.75;
@@ -10,7 +10,7 @@ public class HashTable {
     private int capacity;
     private HashFunction hashFunction;
 
-    // Constructor to initialize the hash table with a given hash function
+    
     public HashTable(HashFunction hashFunction) {
         this.capacity = INITIAL_CAPACITY;
         this.table = new DoublyLinkedList[capacity];
@@ -21,7 +21,7 @@ public class HashTable {
         this.hashFunction = hashFunction;
     }
 
-    // Insert key-value pair and display the table after each insertion
+    
     public void insert(int key, int value) {
         if ((double) size / capacity >= LOAD_FACTOR) {
             resize(capacity * 2);
@@ -29,7 +29,7 @@ public class HashTable {
         int index = hashFunction.hash(key, capacity);
         table[index].insert(key, value);
         size++;
-        display();  // Display the table after each insertion
+        display();  
     }
 
     // Remove key-value pair
@@ -56,7 +56,7 @@ public class HashTable {
             while (node != null) {
                 DoublyLinkedList.ValueNode valueNode = node.valueHead;
                 while (valueNode != null) {
-                    insert(node.key, valueNode.value);  // Re-insert each value for the key
+                    insert(node.key, valueNode.value);  
                     valueNode = valueNode.next;
                 }
                 node = node.next;
@@ -64,7 +64,7 @@ public class HashTable {
         }
     }
 
-    // Display the hash table without indices, and show chaining of values in "value1 -> value2" format
+    
     public void display() {
         System.out.println("Hash Table (Chaining Display):");
         System.out.println("-------------------------------");
@@ -79,13 +79,13 @@ public class HashTable {
         System.out.println("-------------------------------");
     }
 
-    // Find the first value for a given key
+    
     public int find(int key) {
         int index = hashFunction.hash(key, capacity);
         return table[index].find(key);
     }
 
-    // Interface for generic hash function
+    
     public interface HashFunction {
         int hash(int key, int capacity);
     }
